@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.side-anchor{
+  width: 250px;
+  font-size: 16px;
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  &__element{
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    padding-left: 14px;
+    &.active{
+      a{
+        color: #1565C0;
+      }
+    }
+    a{
+      color: rgba(21, 21, 21, 0.25);
+      text-decoration: none;
+      display: block
+    }
+  }
+}
